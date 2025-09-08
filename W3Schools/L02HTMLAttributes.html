@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en_US">
+    <body>
+
+<!--
+lang attribute, usually always included inside the <html> tag to declare the language of the web page. used to assist search engines and browsers
+
+country codes can also be added to the language code in the lang attribute, so the first two characters define the language, last two defines the country
+-->
+
+<!--
+All HTML elements can have attributes
+Attributes provide additional information about elements
+Attributes are always specified in the start tag
+Usually comes in name/value pairs like name="value"
+-->
+
+<!--
+the <a> tag defines a hyperlink, the href attribute specifies the url
+-->
+<a href="github.com/chiMsyt"> Visit my Github! </a> <br>
+
+<!--
+the src attribute
+<img> tag is used to embed an image, the src attribute specifiese the path to the image to be displayed
+-->
+
+<img src="img_my_honey.jpg">
+
+<!--
+There are two ways to specify the URL in the src attribute
+1. Absolute URL - links to an external image that is hosted on another website
+2. Relative URL - links to an image that is hosted within the website, the url does not include the domain name. Think of directory paths on local machines -> User/PC/Photos/img_my_honey.jpg this is usually recommended as they will not break if you change domain
+-->
+
+<!--
+the <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels)
+-->
+
+<img src="img_my_honey.jpg" width="500" height="500">
+
+<!--
+alt attribute specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to slow connection, or an error in the src attribute, or if the user uses a screen reader
+-->
+
+<img src="img_my_honey.jpg" alt="my wife">
+
+<!--
+style attribute is used to add styles to an element, such as color, font, size, and more
+-->
+
+<p style="color: red;"> This is a red text. </p>
+
+<!--
+title attribute defines some extra information about an element
+the value of the title attribute will be displayed as a tooltip when you hover over the element
+-->
+
+<p title="This is a tooltip"> I am a text </p>
+
+    </body>
+</html>
